@@ -24,6 +24,8 @@ public class Configuration
         propertie = new Properties();
     }
     
+    
+    
     /** *//**
      * 初始化Configuration类
      * @param filePath 要读取的配置文件的路径+名称
