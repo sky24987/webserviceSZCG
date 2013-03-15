@@ -23,10 +23,10 @@ public class DaoManager {
 	public void setSql(String sql) {
 		this.sql = sql;
 	}
-	public void initConnection(){//³õÊ¼»¯Êý¾Ý¿âÁ¬½Ó
+	public void initConnection(){//ï¿½ï¿½Ê¼ï¿½ï¿½ï¿½ï¿½ï¿½Ý¿ï¿½ï¿½ï¿½ï¿½ï¿½
 		try{
 			Class.forName("net.sourceforge.jtds.jdbc.Driver");
-			//conn = DriverManager.getConnection("jdbc:jtds:sqlserver://19.127.9.105/chinaweal","sa","pjxh1224");
+		
 			conn = DriverManager.getConnection("jdbc:jtds:sqlserver://localhost/chinaweal;instance=sqlexpress","sa","123456");
 			
 		}
